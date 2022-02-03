@@ -1,0 +1,66 @@
+.display{
+    font-size: 48px;
+    text-align: right;
+    flex: auto;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(46, 46, 46);
+    margin: 10px;
+    background-color: white;
+    white-space: ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 20px;
+    border-color: black;
+    margin: 50px;
+
+    width: 300px;
+}
+
+.row {
+    flex: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    font-size: 32px;
+    margin: 6px;
+    width: 75px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(46, 46, 46);
+    border-radius: 10px;
+}
+
+#btnClear, #btnDelete {
+    width: 150px;
+}
+
+#btnClear {
+    background-color: rgb(255, 255, 0);
+}
+
+#btnAdd, #btnSubtract, #btnMultiply, #btnDivide {
+    background-color: orange;
+}
+
+#btnDelete {
+    background-color: black;
+    color: white;
+}
